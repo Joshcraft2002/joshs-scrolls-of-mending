@@ -7,12 +7,14 @@
         "pack_format": 15,
         "supported_formats": {"min_inclusive": 15, "max_inclusive": 26},
         "description": "Datapack for Scrolls of Mending. v1.4.0",            
-        "load": ["."]
+        "load": ["."],
+        "zipped": true
     },
     "resource_pack": {
         "pack_format": 15,
         "supported_formats": {"min_inclusive": 15, "max_inclusive": 22},
         "description":"Resource Pack for Scrolls of Mending. v1.4.0",
-        "load": ["."]
+        "load": ["."],
+        "zipped": true
     }
 }
