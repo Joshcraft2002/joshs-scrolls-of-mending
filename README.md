@@ -36,5 +36,7 @@ Afterwards, you can safely disable then remove the datapack.
 ## Links
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/scrolls-of-mending-repair-consumables/)
 
+[Modrinth](https://modrinth.com/datapack/scrolls-of-mending)
+
 ## Credits
 Sprites are made by [Bonii](https://twitter.com/ChalkDev)
