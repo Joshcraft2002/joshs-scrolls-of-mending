@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Scrolls of Mending",
+        "description": "Adds Scrolls of Mending that can repair your gear at the cost of experience.",
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{CustomModelData:481911}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:joshmats",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

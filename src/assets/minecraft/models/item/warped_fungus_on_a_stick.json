@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+      "layer0": "minecraft:item/warped_fungus_on_a_stick"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 481911 }, "model": "jmsom:item/greater_scroll" },
+        { "predicate": { "custom_model_data": 481912 }, "model": "jmsom:item/normal_scroll" },
+        { "predicate": { "custom_model_data": 481913 }, "model": "jmsom:item/lesser_scroll" }
+    ]
+  }

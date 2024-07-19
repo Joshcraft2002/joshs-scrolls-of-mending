@@ -1,0 +1,21 @@
+{    
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "joshmats:scrollsofmending/greater_seal"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "recipe"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "joshmats:scrollsofmending/greater_seal"
+        ],
+	    "function": "joshmats:scrollsofmending/crafting/greater_seal"
+    }
+}

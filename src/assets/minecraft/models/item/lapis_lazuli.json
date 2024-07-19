@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/lapis_lazuli"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 481902 }, "model": "jmsom:item/normal_seal" }
+    ]
+}

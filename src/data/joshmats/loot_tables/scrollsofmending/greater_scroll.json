@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        { "function": "set_count", "count": 1 },
+                        { "function": "set_nbt", "tag": "{HideFlags:5,Unbreakable:1b,CustomModelData:481911,Enchantments:[{}]}"},
+                        { "function": "set_nbt", "tag": "{ctc:{id:'greater_scroll',from:'joshmats:scrollsofmending',traits:{'item':1b,'repair_scroll':1b}}}" },
+                        { "function": "set_name", "name": [{ "text": "Greater Scroll of Mending", "italic": false , "color": "yellow"}] }
+                    ]
+                }
+            ]
+        }
+    ]
+}
