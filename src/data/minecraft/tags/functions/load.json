@@ -1,5 +1,5 @@
 {
   "values": [
-    "joshmats:scrollsofmending/startup"
-   ] 
+    "#load:_private/load"
+  ]
 }

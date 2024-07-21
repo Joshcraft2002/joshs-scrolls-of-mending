@@ -1,0 +1,28 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NIN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_nugget",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmsm.lesser_seal', 'italic': false }",
+      "minecraft:custom_model_data": 482000,
+      "minecraft:custom_data": {
+        "smithed": {
+          "id": "jmsm:lesser_seal"
+        }
+      }
+    }
+  }
+}

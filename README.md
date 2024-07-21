@@ -9,7 +9,7 @@ You first need to craft a blank parchment. This can be done by arranging paper i
 
 Then, depending on the rank of scroll, you need to create a scroll seal. Surround one of the below materials in 8 gold nuggets at a crafting table:
 
-- **Gold Ingot:** Lesser Scroll Seal
+- **Nothing:** Lesser Scroll Seal
 - **Lapis Lazuli:** Scroll Seal
 - **Diamond:** Greater Scroll Seal
 

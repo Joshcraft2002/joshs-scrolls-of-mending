@@ -1,1 +1,0 @@
-execute as @a if score @s jm.sm.used matches 1.. at @s run function joshmats:scrollsofmending/detect_use

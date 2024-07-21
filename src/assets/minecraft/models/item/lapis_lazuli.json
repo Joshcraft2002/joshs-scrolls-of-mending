@@ -4,6 +4,6 @@
         "layer0": "item/lapis_lazuli"
     },
     "overrides": [
-        { "predicate": { "custom_model_data": 481902 }, "model": "jmsom:item/normal_seal" }
+        { "predicate": { "custom_model_data": 482000 }, "model": "jmsm:item/normal_seal" }
     ]
 }
