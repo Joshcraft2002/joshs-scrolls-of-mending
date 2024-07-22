@@ -9,9 +9,17 @@
                     "name": "minecraft:warped_fungus_on_a_stick",
                     "functions": [
                         { "function": "set_count", "count": 1 },
-                        { "function": "set_nbt", "tag": "{HideFlags:4,Unbreakable:1b,CustomModelData:481912}"},
-                        { "function": "set_nbt", "tag": "{ctc:{id:'normal_scroll',from:'joshmats:scrollsofmending',traits:{'item':1b,'repair_scroll':1b}}}" },
-                        { "function": "set_name", "name": [{ "text": "Scroll of Mending", "italic": false , "color": "aqua"}] }
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{ 'translate': 'item.jmsm.scroll', 'italic': false }",
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:custom_model_data": 482001,
+                                "minecraft:custom_data": { "smithed": { "id": "jmsm:scroll" } },
+                                "!minecraft:max_damage": {},
+                                "!minecraft:enchantments": {}
+                            }
+                        }
                     ]
                 }
             ]

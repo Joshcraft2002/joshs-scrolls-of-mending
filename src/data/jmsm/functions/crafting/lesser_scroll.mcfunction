@@ -1,4 +1,4 @@
-kill @e[type=item,limit=1,sort=nearest,distance=..3,nbt={Item:{id:"minecraft:gold_ingot",count:1,components:{"minecraft:custom_data":{smithed:{id:"jmsm:lesser_seal"}}}}}]
+kill @e[type=item,limit=1,sort=nearest,distance=..3,nbt={Item:{id:"minecraft:iron_nugget",count:1,components:{"minecraft:custom_data":{smithed:{id:"jmsm:lesser_seal"}}}}}]
 kill @e[type=item,limit=1,sort=nearest,distance=..3,nbt={Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:stored_enchantments":{levels:{"minecraft:mending":1}}}}}]
 
 loot spawn ~ ~ ~ loot jmsm:lesser_scroll

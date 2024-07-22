@@ -16,7 +16,7 @@
                                 "minecraft:rarity": "rare",
                                 "minecraft:custom_model_data": 482000,
                                 "minecraft:custom_data": { "smithed": { "id": "jmsm:greater_scroll" } },
-                                "minecraft:unbreakable": { "show_in_tooltip": "false"},
+                                "!minecraft:max_damage": {},
                                 "!minecraft:enchantments": {}
                             }
                         }

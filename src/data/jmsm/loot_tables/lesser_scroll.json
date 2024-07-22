@@ -9,9 +9,16 @@
                     "name": "minecraft:warped_fungus_on_a_stick",
                     "functions": [
                         { "function": "set_count", "count": 1 },
-                        { "function": "set_nbt", "tag": "{HideFlags:4,Unbreakable:1b,CustomModelData:481913}"},
-                        { "function": "set_nbt", "tag": "{ctc:{id:'lesser_scroll',from:'joshmats:scrollsofmending',traits:{'item':1b,'repair_scroll':1b}}}" },
-                        { "function": "set_name", "name": [{ "text": "Lesser Scroll of Mending", "italic": false }] }
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{ 'translate': 'item.jmsm.lesser_scroll', 'italic': false }",
+                                "minecraft:custom_model_data": 482002,
+                                "minecraft:custom_data": { "smithed": { "id": "jmsm:lesser_scroll" } },
+                                "!minecraft:max_damage": {},
+                                "!minecraft:enchantments": {}
+                            }
+                        }
                     ]
                 }
             ]
