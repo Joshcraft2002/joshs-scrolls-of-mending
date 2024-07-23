@@ -8,6 +8,7 @@
 - switched from CTC to smithed datapack conventions
 > Older items will no longer work and need to be recrafted
 - lesser scroll seal is now based on iron nugget instead of gold ingot
+- scrolls now based on paper instead of warped fungus on a stick
 - text color (rarity) change
 > lesser seal - common, seal - uncommon, greater seal - rare
 

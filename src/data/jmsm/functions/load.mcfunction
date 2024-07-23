@@ -1,7 +1,6 @@
 # lesser, normal, or greater
 scoreboard objectives add jmsm.crafting_level dummy
 
-scoreboard objectives add jmsm.used used:warped_fungus_on_a_stick
 scoreboard objectives add jmsm.use_cooldown dummy
 
 # durability calcs for pieces
@@ -20,8 +19,10 @@ scoreboard objectives add jmsm.xp2 dummy
 # experience calc variable
 scoreboard objectives add jmsm.xpVar dummy
 
-# loops
-function jmsm:mainloop
+# initialize config
+execute unless score jmsm:config jmsm.use_cooldown matches 0.. run scoreboard players set jmsm:config jmsm.use_cooldown 20
+
+# crafting loop
 function jmsm:1sloop
 
 # removing legacy objectives
