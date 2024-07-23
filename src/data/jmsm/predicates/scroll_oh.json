@@ -5,25 +5,29 @@
     "predicate": {
       "equipment": {
         "offhand": {
-          "nbt": "{ctc:{from:'joshmats:scrollsofmending',traits:{'repair_scroll':1b}}}"
+          "predicates": {
+            "minecraft:custom_data": { "jmsm": {  } }
+          }
         }
       }
     }
   },
-{
-  "condition": "minecraft:inverted",
-  "term":
   {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "nbt": "{ctc:{from:'joshmats:scrollsofmending',traits:{'repair_scroll':1b}}}"
+    "condition": "minecraft:inverted",
+    "term":
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+                  "minecraft:custom_data": { "jmsm": {  } }
+                }
+          }
         }
       }
     }
   }
-}
 ]
 

@@ -3,24 +3,20 @@ scoreboard objectives add jmsm.crafting_level dummy
 
 scoreboard objectives add jmsm.use_cooldown dummy
 
-# durability calcs for pieces
-scoreboard objectives add jmsm.head dummy
-scoreboard objectives add jmsm.chest dummy
-scoreboard objectives add jmsm.legs dummy
-scoreboard objectives add jmsm.feet dummy
-scoreboard objectives add jmsm.held dummy
-
-# lvl and for calcs
+# player xp points
 scoreboard objectives add jmsm.xp dummy
 
-# for calcs, also stores total xp points
-scoreboard objectives add jmsm.xp2 dummy
-
-# experience calc variable
-scoreboard objectives add jmsm.xpVar dummy
+# generic value
+scoreboard objectives add jmsm.data dummy
 
 # initialize config
-execute unless score jmsm:config jmsm.use_cooldown matches 0.. run scoreboard players set jmsm:config jmsm.use_cooldown 20
+execute unless score jmsm:config jmsm.use_cooldown matches 0.. run scoreboard players set jmsm:config jmsm.use_cooldown 2
+execute unless score jmsm:config.greater_scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.greater_scroll_cost jmsm.data 50
+execute unless score jmsm:config.scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.scroll_cost jmsm.data 60
+execute unless score jmsm:config.lesser_scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.lesser_scroll_cost jmsm.data 75
+
+# other constants
+scoreboard players set jmsm:100 jmsm.data 100
 
 # crafting loop
 function jmsm:1sloop

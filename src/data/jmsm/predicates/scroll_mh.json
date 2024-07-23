@@ -7,7 +7,9 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "nbt": "{ctc:{from:'joshmats:scrollsofmending',traits:{'repair_scroll':1b}}}"
+              "predicates": {
+                "minecraft:custom_data": { "jmsm": {  } }
+              }
             }
           }
         }
@@ -18,10 +20,14 @@
         "predicate": {
           "equipment": {
             "mainhand": {
-              "nbt": "{ctc:{from:'joshmats:scrollsofmending',traits:{'repair_scroll':1b}}}"
+              "predicates": {
+                "minecraft:custom_data": { "jmsm": {  } }
+              }
             },
             "offhand": {
-              "nbt": "{ctc:{from:'joshmats:scrollsofmending',traits:{'repair_scroll':1b}}}"
+              "predicates": {
+                "minecraft:custom_data": { "jmsm": {  } }
+              }
             }
           }
         }

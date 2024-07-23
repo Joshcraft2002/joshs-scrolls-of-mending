@@ -3,20 +3,14 @@ execute if score @s jmsm.use_cooldown matches 1.. run return 1
 
 scoreboard players operation @s jmsm.use_cooldown += jmsm:config jmsm.use_cooldown 
 
-say greater scroll check
+function jmsm:maths/xp_check
 
-return 1
- 
-scoreboard players set @s jm.sm.wTimer 2
+# set cost to 50%
+scoreboard players operation jmsm:total_damage jmsm.data *= jmsm:config.greater_scroll_cost jmsm.data
+scoreboard players operation jmsm:total_damage jmsm.data /= jmsm:100 jmsm.data
 
-function joshmats:scrollsofmending/maths/gear_exp
-
-#set damage cost to 50%
-scoreboard players set @s jm.sm.xpVar 2
-scoreboard players operation @s jm.sm.chest /= @s jm.sm.xpVar
-
-execute if score @s jm.sm.xp2 < @s jm.sm.chest run function joshmats:scrollsofmending/scroll_functions/fizzle
-execute if score @s jm.sm.xp2 >= @s jm.sm.chest run function joshmats:scrollsofmending/scroll_functions/use_greater_scroll
+execute if score @s jmsm.xp < jmsm:total_damage jmsm.data run function jmsm:scroll_functions/fizzle
+execute if score @s jmsm.xp >= jmsm:total_damage jmsm.data run function jmsm:scroll_functions/use_greater_scroll
 
 
 

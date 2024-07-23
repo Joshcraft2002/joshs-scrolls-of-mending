@@ -3,6 +3,7 @@
 - 1.20.5/1.20.6 support (Incompatible with other versions)
 - now uses lantern load
 - language support (only US English for now)
+- mechanism to repair specific worn equipment (no way to change in-game yet)
 ## Changed
 - now uses item component system
 - switched from CTC to smithed datapack conventions
@@ -11,6 +12,8 @@
 - scrolls now based on paper instead of warped fungus on a stick
 - text color (rarity) change
 > lesser seal - common, seal - uncommon, greater seal - rare
+## Fixes
+- scrolls not taking away exact experience cost on use
 
 # v1.4.0
 ## Fixes
