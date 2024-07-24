@@ -9,7 +9,7 @@
     "item.jmsm.scroll": "Scroll of Mending",
     "item.jmsm.lesser_scroll": "Lesser Scroll of Mending",
 
-    "chat.jmsm.not_enough_experience": "You do not have enough experience for your current gear.",
+    "chat.jmsm.not_enough_experience": "You do not have enough experience to repair your current equipment with this scroll.",
 
     "config.jmsm.title": "Scrolls of Mending Configuration",
     "config.jmsm.use_cooldown": "Scroll Use Cooldown",

@@ -3,9 +3,11 @@ execute if score @s jmsm.use_cooldown matches 1.. run return 1
 
 scoreboard players operation @s jmsm.use_cooldown += jmsm:config.use_cooldown jmsm.data
 
-function jmsm:maths/xp_check
+function jmsm:gear_checks/damage_check
+function jmsm:gear_checks/xp_check
 
-# set greater scroll cost
+# greater scroll fully repairs anyway
+# repair cost
 scoreboard players operation jmsm:total_damage jmsm.data *= jmsm:config.greater_scroll_cost jmsm.data
 scoreboard players operation jmsm:total_damage jmsm.data /= jmsm:100 jmsm.data
 

@@ -17,6 +17,8 @@ execute unless score jmsm:config.lesser_scroll_cost jmsm.data matches 0.. run sc
 
 # other constants
 scoreboard players set jmsm:100 jmsm.data 100
+scoreboard players set jmsm:4 jmsm.data 4
+scoreboard players set jmsm:2 jmsm.data 2
 
 # crafting loop
 function jmsm:1sloop
