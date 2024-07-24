@@ -10,7 +10,7 @@ scoreboard objectives add jmsm.xp dummy
 scoreboard objectives add jmsm.data dummy
 
 # initialize config
-execute unless score jmsm:config jmsm.use_cooldown matches 0.. run scoreboard players set jmsm:config jmsm.use_cooldown 2
+execute unless score jmsm:config.use_cooldown jmsm.data matches 0.. run scoreboard players set jmsm:config.use_cooldown jmsm.data 2
 execute unless score jmsm:config.greater_scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.greater_scroll_cost jmsm.data 50
 execute unless score jmsm:config.scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.scroll_cost jmsm.data 60
 execute unless score jmsm:config.lesser_scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.lesser_scroll_cost jmsm.data 75

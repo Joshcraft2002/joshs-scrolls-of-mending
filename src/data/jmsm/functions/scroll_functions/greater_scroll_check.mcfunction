@@ -1,11 +1,11 @@
 advancement revoke @s only jmsm:greater_scroll_used
 execute if score @s jmsm.use_cooldown matches 1.. run return 1
 
-scoreboard players operation @s jmsm.use_cooldown += jmsm:config jmsm.use_cooldown 
+scoreboard players operation @s jmsm.use_cooldown += jmsm:config.use_cooldown jmsm.data
 
 function jmsm:maths/xp_check
 
-# set cost to 50%
+# set greater scroll cost
 scoreboard players operation jmsm:total_damage jmsm.data *= jmsm:config.greater_scroll_cost jmsm.data
 scoreboard players operation jmsm:total_damage jmsm.data /= jmsm:100 jmsm.data
 

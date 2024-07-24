@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": { "smithed": {"id": "jmsm:lesser_scroll"}}
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jmsm:scroll_functions/lesser_scroll_check"
+    }
+  }
+  

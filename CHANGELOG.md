@@ -2,6 +2,8 @@
 ## Added
 - 1.20.5/1.20.6 support (Incompatible with other versions)
 - now uses lantern load
+- configuration menu
+    - allows editing scroll use cooldown & scroll costs
 - language support (only US English for now)
 - mechanism to repair specific worn equipment (no way to change in-game yet)
 ## Changed

@@ -1,18 +1,14 @@
-scoreboard players set @s jm.sm.wTimer 2
+advancement revoke @s only jmsm:lesser_scroll_used
+execute if score @s jmsm.use_cooldown matches 1.. run return 1
 
-function joshmats:scrollsofmending/maths/gear_exp
+scoreboard players operation @s jmsm.use_cooldown += jmsm:config.use_cooldown jmsm.data
 
-#set damage cost to 70%
-scoreboard players set @s jm.sm.xpVar 10
-scoreboard players operation @s jm.sm.chest /= @s jm.sm.xpVar
+function jmsm:maths/xp_check
 
-scoreboard players set @s jm.sm.xpVar 7
-scoreboard players operation @s jm.sm.chest *= @s jm.sm.xpVar
+# set lesser scroll cost
+scoreboard players operation jmsm:total_damage jmsm.data *= jmsm:config.lesser_scroll_cost jmsm.data
+scoreboard players operation jmsm:total_damage jmsm.data /= jmsm:100 jmsm.data
 
-#cut in quarter
-scoreboard players set @s jm.sm.xpVar 4
-scoreboard players operation @s jm.sm.chest /= @s jm.sm.xpVar
-
-execute if score @s jm.sm.xp2 < @s jm.sm.chest run function joshmats:scrollsofmending/scroll_functions/fizzle
-execute if score @s jm.sm.xp2 >= @s jm.sm.chest run function joshmats:scrollsofmending/scroll_functions/use_lesser_scroll
+execute if score @s jmsm.xp < jmsm:total_damage jmsm.data run function jmsm:scroll_functions/fizzle
+execute if score @s jmsm.xp >= jmsm:total_damage jmsm.data run function jmsm:scroll_functions/use_lesser_scroll
 

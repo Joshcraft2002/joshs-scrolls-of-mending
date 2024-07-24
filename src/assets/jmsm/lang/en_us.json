@@ -9,5 +9,15 @@
     "item.jmsm.scroll": "Scroll of Mending",
     "item.jmsm.lesser_scroll": "Lesser Scroll of Mending",
 
-    "chat.jmsm.not_enough_experience": "You do not have enough experience for your current gear."
+    "chat.jmsm.not_enough_experience": "You do not have enough experience for your current gear.",
+
+    "config.jmsm.title": "Scrolls of Mending Configuration",
+    "config.jmsm.use_cooldown": "Scroll Use Cooldown",
+    "config.jmsm.use_cooldown_note": "(Actual cooldown can be up to 1 second earlier)",
+    "config.jmsm.seconds": "sec",
+    "config.jmsm.lesser_scroll_cost": "Lesser Scroll of Mending Cost",
+    "config.jmsm.scroll_cost": "Scroll of Mending Cost",
+    "config.jmsm.greater_scroll_cost": "Greater Scroll of Mending Cost",
+    "config.jmsm.percent_of_damage": "% of dmg",
+    "config.jmsm.reset": "Reset Values"
 }
