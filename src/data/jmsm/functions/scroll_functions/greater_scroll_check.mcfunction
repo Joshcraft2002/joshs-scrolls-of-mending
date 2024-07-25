@@ -6,13 +6,12 @@ scoreboard players operation @s jmsm.use_cooldown += jmsm:config.use_cooldown jm
 function jmsm:gear_checks/damage_check
 function jmsm:gear_checks/xp_check
 
-# greater scroll fully repairs anyway
-# repair cost
-scoreboard players operation jmsm:total_damage jmsm.data *= jmsm:config.greater_scroll_cost jmsm.data
-scoreboard players operation jmsm:total_damage jmsm.data /= jmsm:100 jmsm.data
+# repair cost (from 100%)
+scoreboard players operation jmsm:total_max_damage jmsm.data *= jmsm:config.greater_scroll_cost jmsm.data
+scoreboard players operation jmsm:total_max_damage jmsm.data /= jmsm:100 jmsm.data
 
-execute if score @s jmsm.xp < jmsm:total_damage jmsm.data run function jmsm:scroll_functions/fizzle
-execute if score @s jmsm.xp >= jmsm:total_damage jmsm.data run function jmsm:scroll_functions/use_greater_scroll
+execute if score @s jmsm.xp < jmsm:total_max_damage jmsm.data run function jmsm:scroll_functions/fizzle
+execute if score @s jmsm.xp >= jmsm:total_max_damage jmsm.data run function jmsm:scroll_functions/use_greater_scroll
 
 
 
