@@ -15,8 +15,7 @@ execute if data storage jmsm:scroll {targets:["head"]} run function jmsm:gear_ch
 execute if data storage jmsm:scroll {targets:["chest"]} run function jmsm:gear_checks/chest_check
 execute if data storage jmsm:scroll {targets:["legs"]} run function jmsm:gear_checks/legs_check
 execute if data storage jmsm:scroll {targets:["feet"]} run function jmsm:gear_checks/feet_check
-# execute if predicate jmsm:scroll_mh if data storage jmsm:scroll {targets:["held"]} store result score jmsm:held_max_damage jmsm.data run data get entity @s Inventory[{Slot:-106b}].components.minecraft:damage
-# execute if predicate jmsm:scroll_oh if data storage jmsm:scroll {targets:["held"]} store result score jmsm:held_max_damage jmsm.data run data get entity @s SelectedItem.components.minecraft:damage
+execute if data storage jmsm:scroll {targets:["held"]} run function jmsm:gear_checks/held_check
 
 # get total max damage
 scoreboard players operation jmsm:total_max_damage jmsm.data = jmsm:head_max_damage jmsm.data

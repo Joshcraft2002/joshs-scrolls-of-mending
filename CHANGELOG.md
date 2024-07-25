@@ -9,11 +9,15 @@
 ## Changed
 - now uses item component system
 - switched from CTC to smithed datapack conventions
-> Older items will no longer work and need to be recrafted
+    - older items will no longer work and need to be recrafted
 - lesser scroll seal is now based on iron nugget instead of gold ingot
 - scrolls now based on paper instead of warped fungus on a stick
+- scroll use costs are now calculated based on total gear durability instead of only damage
+    - more accurate to scrolls repairing a % of total durability
 - text color (rarity) change
-> lesser seal - common, seal - uncommon, greater seal - rare
+    - lesser seal - common
+    - seal - uncommon
+    - greater seal - rare
 ## Fixes
 - scrolls not taking away exact experience cost on use
 

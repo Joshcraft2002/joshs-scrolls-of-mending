@@ -15,6 +15,7 @@ execute store result score jmsm:chest_max_damage jmsm.data run data get storage 
 # other item checks
 execute unless score jmsm:chest_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:netherite_chestplate"}} run scoreboard players set jmsm:chest_max_damage jmsm.data 592
 execute unless score jmsm:chest_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:diamond_chestplate"}} run scoreboard players set jmsm:chest_max_damage jmsm.data 528
+execute unless score jmsm:chest_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:elytra"}} run scoreboard players set jmsm:held_max_damage jmsm.data 432
 execute unless score jmsm:chest_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:iron_chestplate"}} run scoreboard players set jmsm:chest_max_damage jmsm.data 240
 execute unless score jmsm:chest_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:leather_chestplate"}} run scoreboard players set jmsm:chest_max_damage jmsm.data 80
 execute unless score jmsm:chest_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:golden_chestplate"}} run scoreboard players set jmsm:chest_max_damage jmsm.data 112

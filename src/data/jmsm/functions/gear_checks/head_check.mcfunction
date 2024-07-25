@@ -16,6 +16,7 @@ execute store result score jmsm:head_max_damage jmsm.data run data get storage j
 execute unless score jmsm:head_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:netherite_helmet"}} run scoreboard players set jmsm:head_max_damage jmsm.data 407
 execute unless score jmsm:head_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:diamond_helmet"}} run scoreboard players set jmsm:head_max_damage jmsm.data 363
 execute unless score jmsm:head_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:iron_helmet"}} run scoreboard players set jmsm:head_max_damage jmsm.data 165
+execute unless score jmsm:head_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:turtle_helmet"}} run scoreboard players set jmsm:head_max_damage jmsm.data 275
 execute unless score jmsm:head_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:leather_helmet"}} run scoreboard players set jmsm:head_max_damage jmsm.data 55
 execute unless score jmsm:head_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:golden_helmet"}} run scoreboard players set jmsm:head_max_damage jmsm.data 77
 execute unless score jmsm:head_max_damage jmsm.data matches 1.. if data storage jmsm:scroll {gear_check:{id:"minecraft:chainmail_helmet"}} run scoreboard players set jmsm:head_max_damage jmsm.data 165
