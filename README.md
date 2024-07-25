@@ -19,6 +19,8 @@ Then, toss a blank parchment, a seal, and an Enchanted Book with mending on the 
 Right clicking the scroll in either your offhand or mainhand repairs your equipped gear (including a held tool that isn't the scroll itself) and consumes the scroll. The amount repaired and experience cost depends on the scroll type:
 
 ![Scroll Types](media/scrolltypes.png)
+<br>
+(undamaged equipment is ignored in the cost calculation)
 
 If you don't have enough experience levels, a message will appear:
 
@@ -36,8 +38,17 @@ Afterwards, you can safely disable then remove the datapack.
 
 ## Configuration
 To open the config menu, run this command: `/function jmsm:config`
+ 
+<details>
+<summary>Config Options</summary>
 
-This lets you change the cooldown between scroll uses, and the experience cost of scrolls (in % of damage)
+- scroll use cooldown (in seconds, with actual cooldown up to 1 second early)
+- cost calculation type
+    - `default` bases cost on total durability, in line with the repair always being a % of full durability
+    - `legacy` is the old system, basing only on damage
+- experience cost of scrolls (in %, and based on cost calculation type)
+
+</details>    
 
 ## Links
 [Planet Minecraft](https://www.planetminecraft.com/data-pack/scrolls-of-mending-repair-consumables/)

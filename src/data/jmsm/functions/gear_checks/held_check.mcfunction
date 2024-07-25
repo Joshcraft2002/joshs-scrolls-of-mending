@@ -2,8 +2,8 @@
 data remove storage jmsm:scroll gear_check
 
 # get piece at slot and check if it exists
-execute if predicate jmsm:scroll_mh data modify storage jmsm:scroll gear_check set from entity @s Inventory[{Slot:-106b}]
-execute if predicate jmsm:scroll_oh data modify storage jmsm:scroll gear_check set from entity @s SelectedItem
+execute if predicate jmsm:scroll_mh run data modify storage jmsm:scroll gear_check set from entity @s Inventory[{Slot:-106b}]
+execute if predicate jmsm:scroll_oh run data modify storage jmsm:scroll gear_check set from entity @s SelectedItem
 execute unless data storage jmsm:scroll gear_check run return 1
 
 # check if there's any actual damage
