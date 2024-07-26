@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        { "function": "set_count", "count": 1 },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{ 'translate': 'item.jmsm.seal', 'italic': false }",
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:custom_model_data": 482000,
+                                "minecraft:custom_data": {
+                                    "smithed": { "id": "jmsm:seal" }
+                                },
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

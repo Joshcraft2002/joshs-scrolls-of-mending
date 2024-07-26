@@ -2,4 +2,4 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:paper",count:1,components:{"min
 
 execute as @a[scores={jmsm.use_cooldown=1..}] run scoreboard players remove @s jmsm.use_cooldown 1
 
-schedule function jmsm:1sloop 1s
+schedule function jmsm:technical/1sloop 1s
