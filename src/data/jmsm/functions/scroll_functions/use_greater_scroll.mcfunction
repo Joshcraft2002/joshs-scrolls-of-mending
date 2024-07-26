@@ -1,11 +1,11 @@
 function jmsm:maths/decrement_xp
 
-execute if score jmsm:head_damage jmsm.data matches 1.. run item modify entity @s armor.head jmsm:greater_repair
-execute if score jmsm:chest_damage jmsm.data matches 1.. run item modify entity @s armor.chest jmsm:greater_repair
-execute if score jmsm:legs_damage jmsm.data matches 1.. run item modify entity @s armor.legs jmsm:greater_repair
-execute if score jmsm:feet_damage jmsm.data matches 1.. run item modify entity @s armor.feet jmsm:greater_repair
-execute if score jmsm:held_damage jmsm.data matches 1.. run item modify entity @s weapon.mainhand jmsm:greater_repair
-execute if score jmsm:held_damage jmsm.data matches 1.. run item modify entity @s weapon.offhand jmsm:greater_repair
+execute if score jmsm:cost_calc.head jmsm.data matches 1.. run item modify entity @s armor.head jmsm:greater_repair
+execute if score jmsm:cost_calc.chest jmsm.data matches 1.. run item modify entity @s armor.chest jmsm:greater_repair
+execute if score jmsm:cost_calc.legs jmsm.data matches 1.. run item modify entity @s armor.legs jmsm:greater_repair
+execute if score jmsm:cost_calc.feet jmsm.data matches 1.. run item modify entity @s armor.feet jmsm:greater_repair
+execute if score jmsm:cost_calc.held jmsm.data matches 1.. run item modify entity @s weapon.mainhand jmsm:greater_repair
+execute if score jmsm:cost_calc.held jmsm.data matches 1.. run item modify entity @s weapon.offhand jmsm:greater_repair
 
 particle happy_villager ~ ~1 ~ 0.2 0.5 0.2 1 10 normal
 playsound block.anvil.use master @a ~ ~ ~

@@ -10,12 +10,7 @@ scoreboard objectives add jmsm.xp dummy
 scoreboard objectives add jmsm.data dummy
 
 # initialize config
-execute unless score jmsm:config.use_cooldown jmsm.data matches 0.. run scoreboard players set jmsm:config.use_cooldown jmsm.data 2
-execute unless score jmsm:config.greater_scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.greater_scroll_cost jmsm.data 50
-execute unless score jmsm:config.scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.scroll_cost jmsm.data 60
-execute unless score jmsm:config.lesser_scroll_cost jmsm.data matches 0.. run scoreboard players set jmsm:config.lesser_scroll_cost jmsm.data 75
-execute unless score jmsm:config.cost_calculation_type jmsm.data matches 0.. run scoreboard players set jmsm:config.cost_calculation_type jmsm.data 1 # 1 for default, 2 for legacy
-
+function jmsm:technical/initialize_config
 
 # other constants
 scoreboard players set jmsm:100 jmsm.data 100
@@ -23,7 +18,7 @@ scoreboard players set jmsm:4 jmsm.data 4
 scoreboard players set jmsm:2 jmsm.data 2
 
 # crafting loop
-function jmsm:1sloop
+schedule function jmsm:technical/1sloop 1s
 
 # removing legacy objectives
 scoreboard objectives remove jm.sm.cState
@@ -41,3 +36,4 @@ scoreboard objectives remove jm.sm.xp
 scoreboard objectives remove jm.sm.xp2 
 
 scoreboard objectives remove jm.sm.xpVar 
+
