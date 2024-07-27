@@ -11,11 +11,11 @@ execute if predicate jmsm:scroll_mh run data modify storage jmsm:scroll targets 
 execute if predicate jmsm:scroll_oh run data modify storage jmsm:scroll targets set from entity @s Inventory[{Slot:-106b}].components.minecraft:custom_data.jmsm.scroll_targets
 
 # get max damage per item
-execute if data storage jmsm:scroll {targets:["head"]} run function jmsm:gear_checks/head_check
-execute if data storage jmsm:scroll {targets:["chest"]} run function jmsm:gear_checks/chest_check
-execute if data storage jmsm:scroll {targets:["legs"]} run function jmsm:gear_checks/legs_check
-execute if data storage jmsm:scroll {targets:["feet"]} run function jmsm:gear_checks/feet_check
-execute if data storage jmsm:scroll {targets:["held"]} run function jmsm:gear_checks/held_check
+execute if data storage jmsm:scroll {targets:["head"]} run function jmsm:gear_check/head_check
+execute if data storage jmsm:scroll {targets:["chest"]} run function jmsm:gear_check/chest_check
+execute if data storage jmsm:scroll {targets:["legs"]} run function jmsm:gear_check/legs_check
+execute if data storage jmsm:scroll {targets:["feet"]} run function jmsm:gear_check/feet_check
+execute if data storage jmsm:scroll {targets:["held"]} run function jmsm:gear_check/held_check
 
 # get damage calc result
 scoreboard players operation jmsm:cost_calc.total jmsm.data = jmsm:cost_calc.head jmsm.data

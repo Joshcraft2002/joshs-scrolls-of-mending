@@ -1,15 +1,15 @@
 {
     "id": "joshs-scrolls-of-mending",
     "name": "Scrolls of Mending",
-    "version": "v2.0.0",
+    "version": "v2.1.0",
     "data_pack": {
-        "pack_format": 41,
-        "description": "Datapack for Scrolls of Mending. v2.0.0",            
+        "pack_format": 48,
+        "description": "Datapack for Scrolls of Mending. v2.1.0",            
         "load": ["."]
     },
     "resource_pack": {
-        "pack_format": 32,
-        "description":"Resource Pack for Scrolls of Mending. v2.0.0",
+        "pack_format": 34,
+        "description":"Resource Pack for Scrolls of Mending. v2.1.0",
         "load": ["."]
     }
 }

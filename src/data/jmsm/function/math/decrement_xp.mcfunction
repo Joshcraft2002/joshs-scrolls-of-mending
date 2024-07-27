@@ -10,4 +10,4 @@ execute if score jmsm:cost_calc.total jmsm.data matches 10..99 run scoreboard pl
 execute if score jmsm:cost_calc.total jmsm.data matches 1..9 run experience add @s -1 points
 execute if score jmsm:cost_calc.total jmsm.data matches 1..9 run scoreboard players remove jmsm:cost_calc.total jmsm.data 1
 
-execute if score jmsm:cost_calc.total jmsm.data matches 1.. run function jmsm:maths/decrement_xp
+execute if score jmsm:cost_calc.total jmsm.data matches 1.. run function jmsm:math/decrement_xp
