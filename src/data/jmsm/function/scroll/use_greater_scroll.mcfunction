@@ -1,4 +1,4 @@
-function jmsm:maths/decrement_xp
+function jmsm:math/decrement_xp
 
 execute if score jmsm:cost_calc.head jmsm.data matches 1.. run item modify entity @s armor.head jmsm:greater_repair
 execute if score jmsm:cost_calc.chest jmsm.data matches 1.. run item modify entity @s armor.chest jmsm:greater_repair

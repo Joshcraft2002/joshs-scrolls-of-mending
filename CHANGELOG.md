@@ -1,3 +1,6 @@
+# v2.1.0
+- 1.21 support (Incompatible with other versions)
+
 # v2.0.0
 ## Added
 - 1.20.5/1.20.6 support (Incompatible with other versions)

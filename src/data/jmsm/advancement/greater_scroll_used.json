@@ -5,14 +5,14 @@
         "conditions": {
           "item": {
             "predicates": {
-              "minecraft:custom_data": { "smithed": {"id": "jmsm:lesser_scroll"}}
+              "minecraft:custom_data": { "smithed": {"id": "jmsm:greater_scroll"}}
             }
           }
         }
       }
     },
     "rewards": {
-      "function": "jmsm:scroll_functions/lesser_scroll_check"
+      "function": "jmsm:scroll/greater_scroll_check"
     }
   }
   
