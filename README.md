@@ -1,9 +1,11 @@
 # Scrolls of Mending
 ## Introduction
-Scrolls of Mending adds scrolls which repair your armor at the cost of experience. There are different ranks of scrolls, repairing different percentages of durability, and the experience cost changes dynamically depending on how much damage your gear has.
+Scrolls of Mending adds scrolls which repair your armor at the cost of experience. There are different ranks of scrolls that repair different percentages of durability, and the experience cost changes dynamically depending on how much total durability your gear has.
 
 ## Crafting
-You first need to craft a blank parchment. This can be done by arranging paper in a 2x2 pattern on a crafting table.
+You first need to craft a blank parchment. This can be done by arranging paper on a crafting table depending on which equipment you want repaired.
+
+![Blank Parchment Types](media/parchmentcrafts.png)
 
 Then, depending on the rank of scroll, you need to create a scroll seal. Surround one of the below materials in 8 gold nuggets at a crafting table:
 

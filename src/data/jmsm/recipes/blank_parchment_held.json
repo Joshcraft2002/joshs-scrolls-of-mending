@@ -1,8 +1,9 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "PP",
-    "PP"
+    " P ",
+    " P ",
+    "PPP"
   ],
   "key": {
     "P": {
@@ -14,9 +15,10 @@
     "components": {
       "minecraft:item_name": "{ 'translate': 'item.jmsm.blank_parchment', 'italic': false }",
       "minecraft:custom_model_data": 482000,
+      "minecraft:lore": [ "{'translate': 'item.jmsm.blank_parchment.pattern_held.desc', 'italic': false, 'color': 'gray'}"],
       "minecraft:custom_data": {
         "smithed": { "id": "jmsm:blank_parchment" },
-        "jmsm": { "pattern": "default" }
+        "jmsm": { "pattern": "held" }
       }
     }
   }
