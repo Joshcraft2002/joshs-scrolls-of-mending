@@ -18,7 +18,7 @@ Then, toss a blank parchment, a seal, and an Enchanted Book with mending on the 
 ![Creating a Scroll](media/groundcrafting.gif)
 
 ## Usage
-Right clicking the scroll repairs your equipped gear (including a held tool that isn't the scroll itself) and consumes the scroll. The amount repaired and experience cost depends on the scroll type:
+Right clicking the scroll repairs your equippment and consumes the scroll. The amount repaired and experience cost depends on the scroll type:
 
 ![Scroll Types](media/scrolltypes.png)
 <br>
