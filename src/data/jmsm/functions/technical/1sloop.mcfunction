@@ -1,0 +1,7 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",count:1,components:{"minecraft:custom_data":{smithed:{id:"jmsm:blank_parchment"},jmsm:{pattern:"default"}}}}}] at @s if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:stored_enchantments":{levels:{"minecraft:mending":1}}}}}] run function jmsm:crafting/default_scroll/scroll_select
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",count:1,components:{"minecraft:custom_data":{smithed:{id:"jmsm:blank_parchment"},jmsm:{pattern:"armor"}}}}}] at @s if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:stored_enchantments":{levels:{"minecraft:mending":1}}}}}] run function jmsm:crafting/armor_scroll/scroll_select
+execute as @e[type=item,nbt={Item:{id:"minecraft:paper",count:1,components:{"minecraft:custom_data":{smithed:{id:"jmsm:blank_parchment"},jmsm:{pattern:"held"}}}}}] at @s if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:stored_enchantments":{levels:{"minecraft:mending":1}}}}}] run function jmsm:crafting/held_scroll/scroll_select
+
+execute as @a[scores={jmsm.use_cooldown=1..}] run scoreboard players remove @s jmsm.use_cooldown 1
+
+schedule function jmsm:technical/1sloop 1s

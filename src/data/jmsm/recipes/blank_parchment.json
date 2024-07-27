@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:item_name": "{ 'translate': 'item.jmsm.blank_parchment', 'italic': false }",
+      "minecraft:custom_model_data": 482000,
+      "minecraft:custom_data": {
+        "smithed": { "id": "jmsm:blank_parchment" },
+        "jmsm": { "pattern": "default" }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "item.jmsm.blank_parchment": "Blank Parchment",
+    "item.jmsm.blank_parchment.pattern_armor.desc": "Pattern: Armor",
+    "item.jmsm.blank_parchment.pattern_held.desc": "Pattern: Mainhand & Offhand Equipment",
+    
+    "item.jmsm.greater_seal": "Greater Scroll Seal",
+    "item.jmsm.seal": "Scroll Seal",
+    "item.jmsm.lesser_seal": "Lesser Scroll Seal",
+
+    "item.jmsm.greater_scroll": "Greater Scroll of Mending",
+    "item.jmsm.lesser_scroll": "Lesser Scroll of Mending",
+    "item.jmsm.scroll": "Scroll of Mending",
+
+    "item.jmsm.scroll.armor": "Armor",
+    "item.jmsm.scroll.default": "All Equipment",
+    "item.jmsm.scroll.held": "Mainhand & Offhand Equipment",
+
+    "chat.jmsm.not_enough_experience": "You do not have enough experience to repair your current equipment with this scroll.",
+
+    "config.jmsm.title": "Scrolls of Mending Configuration",
+    "config.jmsm.use_cooldown": "Scroll Use Cooldown",
+    "config.jmsm.use_cooldown_note": "(Actual cooldown can be up to 1 second earlier)",
+    "config.jmsm.seconds": "sec",
+    "config.jmsm.cost_calculation_type": "Cost Calculation Type",
+    "config.jmsm.cost_calculation.max_damage": "Default",
+    "config.jmsm.cost_calculation.damage": "Legacy",
+    "config.jmsm.lesser_scroll_cost": "Lesser Scroll of Mending Cost",
+    "config.jmsm.scroll_cost": "Scroll of Mending Cost",
+    "config.jmsm.greater_scroll_cost": "Greater Scroll of Mending Cost",
+    "config.jmsm.reset": "Reset Values"
+}

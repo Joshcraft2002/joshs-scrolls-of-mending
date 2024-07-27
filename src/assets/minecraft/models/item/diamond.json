@@ -4,6 +4,6 @@
         "layer0": "item/diamond"
     },
     "overrides": [
-        { "predicate": { "custom_model_data": 481901 }, "model": "jmsom:item/greater_seal" }
+        { "predicate": { "custom_model_data": 482000 }, "model": "jmsm:item/greater_seal" }
     ]
 }

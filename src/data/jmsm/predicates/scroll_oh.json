@@ -1,0 +1,33 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "predicates": {
+            "minecraft:custom_data": { "jmsm": {  } }
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term":
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "predicates": {
+                  "minecraft:custom_data": { "jmsm": {  } }
+                }
+          }
+        }
+      }
+    }
+  }
+]
+

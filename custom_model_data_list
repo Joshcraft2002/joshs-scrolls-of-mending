@@ -4,13 +4,13 @@ Recipe ID's take the last 3 numbers.
                                                     
 Item                        CMD      Base               
                                     
-Blank Parchment             481900 Paper
+Blank Parchment             482000 Paper
 
-Greater Scroll Seal         481901 Diamond
-Scroll Seal                 481902 Lapis Lazuli
-Lesser Scroll Seal          481903 Gold Ingot
+Greater Scroll Seal         482000 Diamond
+Scroll Seal                 482000 Lapis Lazuli
+Lesser Scroll Seal          482000 Iron Nugget
 
-Greater Scroll of Mending   481911 Warped Fungus on a Stick
-Scroll of Mending           481912 Warped Fungus on a Stick
-Lesser Scroll of Mending    481913 Warped Fungus on a Stick
+Greater Scroll of Mending   482001 Paper
+Scroll of Mending           482002 Paper
+Lesser Scroll of Mending    482003 Paper
 

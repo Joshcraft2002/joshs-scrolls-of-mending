@@ -4,6 +4,9 @@
         "layer0": "item/paper"
     },
     "overrides": [
-        { "predicate": { "custom_model_data": 481900 }, "model": "item/map" }
+        { "predicate": { "custom_model_data": 482000 }, "model": "jmsm:item/blank_parchment" },
+        { "predicate": { "custom_model_data": 482001 }, "model": "jmsm:item/greater_scroll" },
+        { "predicate": { "custom_model_data": 482002 }, "model": "jmsm:item/scroll" },
+        { "predicate": { "custom_model_data": 482003 }, "model": "jmsm:item/lesser_scroll" }
     ]
 }
